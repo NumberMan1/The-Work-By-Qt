@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BoxManClass</class>
+ <widget class="QMainWindow" name="BoxManClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BoxMan</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QToolButton" name="toolButton">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>230</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+    <property name="icon">
+     <iconset resource="BoxMan.qrc">
+      <normaloff>:/Pictures/Image/again.png</normaloff>:/Pictures/Image/again.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>121</width>
+      <height>68</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>230</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+    <property name="icon">
+     <iconset resource="BoxMan.qrc">
+      <normaloff>:/Pictures/Image/close.png</normaloff>:/Pictures/Image/close.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>121</width>
+      <height>68</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_3">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>230</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+    <property name="icon">
+     <iconset resource="BoxMan.qrc">
+      <normaloff>:/Pictures/Image/last.png</normaloff>:/Pictures/Image/last.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>121</width>
+      <height>68</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_4">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>230</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+    <property name="icon">
+     <iconset resource="BoxMan.qrc">
+      <normaloff>:/Pictures/Image/next.png</normaloff>:/Pictures/Image/next.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>121</width>
+      <height>68</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="BoxMan.qrc"/>
+ </resources>
+ <connections/>
+</ui>
